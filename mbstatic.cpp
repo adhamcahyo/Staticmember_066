@@ -11,7 +11,7 @@ public:
 
 	void setID();
 	void printAll();
-	mahasiswa(string pnama) :nama(pnama) { setID();}
+	mahasiswa(string pnama) :nama(pnama) { setID(); }
   };
 
 int mahasiswa :  : num= 0;
