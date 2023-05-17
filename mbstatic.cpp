@@ -14,7 +14,7 @@ public:
 	mahasiswa(string pnama) :nama(pnama) { setID(); }
   };
 
-int mahasiswa :  : num= 0;
+int mahasiswa :  : nim= 0;
 
 void mahasiswa: :setID() {
 	id = ++nim;
@@ -29,7 +29,7 @@ int main() {
 	mahasiswa mhs2("Asroni");
 	mhs2.nim = 10;
 	mahasiswa mhs3("Andi Kurniawan");
-	mhs3.num = 20;
+	mhs3.nim = 20;
 	mahasiwa mhs4("Joko Purbo");
   
   	mhs1.printAll();
